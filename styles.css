@@ -1,0 +1,132 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the entire page except for the header */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+
+}
+main{
+margin-left: 40px;
+margin-right: 40px;
+}
+/* Override styles for the header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+#create-link{
+ background-color: darkblue;
+ padding: 5px;
+ border-radius: 10px;
+}
+#content-form {
+    text-align: center;
+}
+
+#text-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    resize: none;
+    margin-right: 2px;
+}
+
+#title-input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    resize: none;
+    margin-right: 2px;
+}
+.file-label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.right-head{
+    float: right;
+}
+button {
+    background-color: #ff6b6b;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.nav-link{
+    float: right;
+}
+
+button:hover {
+    background-color: #ff5252;
+}
+
+/* Posted Content Styles */
+.content-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+img {
+  width: 800px;
+    height: auto;
+    margin-left: 100px;
+}
+/* CSS code */
+.hidden {
+    display: none;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+}
+
+#beginner-content img{
+border-radius: 10px;
+}
+#posted-content img{
+    border-radius: 10px;
+}

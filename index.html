@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Content Management Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="left-head">Content Management</a>
+            <a href="#" id="create-link" class="nav-link right-head">Create Post</a>
+            <a href="#" class="nav-link right-head">Home</a>
+            <a href="#" class="nav-link right-head">About</a>
+            <a href="#" class="nav-link right-head">Contact</a>
+        </nav>
+    </header>
+    <div id="popup-overlay" class="hidden">
+        <div id="popup-content-form">
+            <!-- Content form will be displayed here as a popup -->
+        </div>
+    </div>
+    <main>
+        <section id="content-form" class="hidden">
+            <h1>Add Content</h1>
+            <form>
+                <input type="text" id="title-input" name="postTitle" placeholder="Enter title">
+                <textarea id="text-input" name="yourMessage" rows="8" cols="80" placeholder="Enter content"></textarea>
+                <label for="image-input" class="file-label">Choose an Image</label>
+                <input type="file" id="image-input" accept="image/*" />
+                <button type="button" id="post-button">Post</button>
+            </form>
+          
+        </section>
+        <section id="beginner-content" class="content-form">
+            <h2>If You're a Beginner...</h2><br>
+            <img src="static-img.png" alt="">
+            <br>
+            <p>
+                <strong>Developer Drive:</strong> As mentioned above, this is a perfect option if you’re just beginning your career in web development. By web developers, for web developers, Developer Drive offers the latest news in the world of web development. This includes opinion articles, tutorials, tips & tricks to start off on the right foot. Are you looking to learn how to minimize downtime? How about ensuring your site is secure and easy for consumers to navigate? Or would you like to keep tabs on every Microsoft software release? From JavaScript to mobile development, Developer Drive has you covered.
+            </p>
+            <p>You can also follow Developer Drive on <a href="https://twitter.com/developerdrive" target="_blank">Twitter</a> for the latest news and articles.</p>
+        </section>
+        <section id="posted-content">
+            <!-- Content will be displayed here -->
+        </section>
+    </main>
+
+   
+    <footer>
+        <div class="bottom_container-top">
+           <div class="footer-name">
+              <h2 style="color: white;">
+                 Shreyash Chougule
+              </h2>
+              <p style="color: white;">
+                 Full Stack Developer
+              </p>
+           </div>
+           <div class="bottom-container">
+              <h2 style="color: white;">
+                 Follow Me
+              </h2>
+              <a href="https://www.linkedin.com/in/shreyash-chougule/">
+                 <img src="images/images/linkedin-modified.png" alt="instagram" style="width:50px">
+              </a>
+              <a href="https://www.instagram.com/shreyash_chougule_1080/">
+                 <img src="images/images/insta-modified.png" alt="instagram" style="width:50px">
+              </a>
+              <a href="https://twitter.com/SAC1080">
+                 <img src="images/images/twiiter-modified.png" alt="images/instagram" style="width:50px">
+              </a>
+              <a href="mailto:shreyashchougule1080@gmail.com?subject=Inquiry&body=Hello%20Shreyash!">
+                 <img src="images/images/download-modified.png" alt="gmail" style="width:50px">
+              </a>
+           </div>
+        </div>
+        <p class="copyright">
+           ©SAC, All right reserved
+        </p>
+     </footer>
+    <script src="script.js"></script>
+</body>
+</html>
